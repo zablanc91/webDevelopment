@@ -1,0 +1,320 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*End of css reset*/
+
+
+/*
+  ========================================
+  Custom styles
+  ========================================
+*/
+
+body{
+	background-color: #f0eeeb;
+	color: #a39c91;
+	font: 300 16px/22px "Lato", Helvetica;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 44px;
+}
+
+
+/*
+  ========================================
+  Links
+  ========================================
+*/
+a {
+  color: #a39c91;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #4e473d;
+}
+
+/*
+  ========================================
+  Primary header
+  ========================================
+*/
+
+#logo {
+  border-top: 4px solid #cbc9c7;
+  float: left;
+  font-size: 48px;
+  font-weight: 300;
+  letter-spacing: .5px;
+  line-height: 44px;
+  padding: 30px 0 22px 0;
+  text-transform: uppercase;
+}
+
+.primary-nav {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: .5px;
+  padding-top: 50px;
+  text-transform: uppercase;
+}
+
+.nav {
+  text-align: right;
+}
+
+.nav-link {
+	padding-right: 70px;
+}
+
+.container{
+  margin: 0 auto;
+  width: 960px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #cbc9c7;
+}
+
+
+/*
+  ========================================
+  Banner
+  ========================================
+*/
+
+#bSection{
+	padding-top: 40px;
+}
+
+.banner {
+	clear: both;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	border: 1px solid #a39c91;
+}
+
+
+/*
+  ========================================
+  Albums
+  ========================================
+*/
+
+.album-cover{
+	border:	1px solid #bbb;
+}
+
+#jacket{
+	padding-top: 40px;
+}
+
+ul{
+	font-size:0;
+	text-align:center;
+}
+
+ul li{
+	display:inline;
+}
+
+#jacket li{
+	margin: 8px;
+}
+
+
+/*
+  ========================================
+  Posting Section
+  ========================================
+*/
+
+#posts {
+	margin: 25px 0px 10px 50px;
+	padding-left: 65px;
+	clear: both;
+}
+
+#posts-left {
+	width:	250px;
+	padding-top: 15px;
+	text-align:	right;
+	font-size: 90%;
+	color: black;
+	line-height: 170%;
+	float: left;
+}
+
+#posts-left h2 {
+	margin-bottom:15px;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+#posts-left a{
+	text-decoration: underline;
+}
+
+#posts-left p{
+	font-size: 10px;
+}
+
+#posts-right {
+	width:	600px;
+	border-left: 1px solid #ccc;
+	padding: 15px 0 10px 25px;
+	margin:	0 0 20px 290px;
+	color: black;
+}
+
+#posts-right h3 {
+	color: 	black;
+	font-size:	180%;
+	margin-bottom: 25px;
+}
+
+.it-text{
+  font-style: italic;
+}
+
+.venue-map {
+  height: 264px;
+}
+
+
+/*
+Posting section - Discography
+*/
+.album-title{
+  padding-left:20px;
+}
+
+ol{
+	list-style-type: decimal;
+	padding-left:20px;
+}
+
+.cover{
+	float:right;
+	padding-left: 55px;
+}
+
+
+/*
+Contact
+*/
+
+form {
+  margin-bottom: 22px;
+}
+
+input, textarea {
+  font: 500 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #f0eeeb;
+}
+
+.contact-group input, .contact-group textarea {
+  border: 1px solid #c6c9cc;
+  border-radius: 5px;
+  color: #000;
+  display: block;
+  margin: 5px 0 27px 0;
+  padding: 5px 8px;
+}
+.contact-group input{
+ width: 40%;
+}
+
+.contact-group textarea {
+  width: 80%;
+  height: 98px;
+}
+
+.btn {
+  border-radius: 5px;
+  color:#fff;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  letter-spacing: .5px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.btn-default {
+  border: 0;
+  background: #a39c91;
+  padding: 11px 30px;
+  font-size: 14px;
+}
+.btn-default:hover {
+  background: #4e473d;
+}
+
+
+/*
+  ========================================
+  Primary footer
+  ========================================
+*/
+
+.primary-footer {
+  color: #a39c91;
+  font-size: 14px;
+  padding-bottom: 44px;
+  padding-top: 24px;
+}
+
+.primary-footer small {
+  float: left;
+  font-weight: 400;
+}
+
