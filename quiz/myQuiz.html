@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    		<meta charset="utf-8">
+    		<title>My Quiz</title>
+		<!--	<script type="text/javascript" src="quiz.js"></script> -->
+			<script type="text/javascript" src="jquery-1.11.1.js"></script>
+			<script type="text/javascript" src="quizJQuery.js"></script>
+  	</head>
+  	<body>
+		<h1>Javascript Quiz!</h1>
+		<h4>learn_js_in_seattle</h4>
+	
+		<div id="fade">
+		<b><span id="questions"></span></b>
+	
+		<form  id="radioAnswers">
+			<label for ="answer0" id="a0">Answer 1</label><input type="radio" id="answer0" name="choice" value="0"> </br>
+			<label for ="answer1" id="a1">Answer 2</label><input type="radio" id="answer1" name="choice" value="1"> </br>
+			<label for ="answer2" id="a2">Answer 3</label><input type="radio" id="answer2" name="choice" value="2"> </br>
+			<label for ="answer3" id="a3">Answer 4</label><input type="radio" id="answer3" name="choice" value="3"> </br>
+			</form>
+	
+		<span id="prompt" style="display: none;">Please choose an answer first.</span>
+		</br>
+		<button id ="submit" onclick=checkForAnswer()>Submit answer</button>
+		</div>
+
+  	</body>
+</html>
